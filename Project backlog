@@ -1,0 +1,31 @@
+Research and collect data: 
+  Collect historical data on basketball games, including statistics on teams, players, and game outcomes. 
+  (Task assigned to all team members)
+
+Data cleaning and preprocessing: 
+  Clean and preprocess the collected data to prepare it for analysis. 
+  (Task assigned to all team members)
+
+Model selection and implementation: 
+  Select and implement a suitable machine learning model to predict game outcomes based on the preprocessed data. 
+  (Task assigned to Yakir and Zebing)
+
+Model testing and validation: 
+  Test and validate the accuracy and reliability of the implemented model. 
+  (Task assigned to Yakir)
+
+Web dashboard design and development: 
+  Design and develop a user-friendly web dashboard to visualize the predicted game outcomes. 
+  (Task assigned to Rao)
+
+Testing and debugging: 
+  Test and debug the web dashboard and the machine learning model to ensure they are working properly. 
+  (Task assigned to all team members)
+
+Deployment: 
+  Deploy the web dashboard and the machine learning model to a suitable platform. 
+  (Task assigned to Rao)
+
+User testing and feedback: 
+  Conduct user testing and gather feedback to improve the web dashboard and the machine learning model. 
+  (Task assigned to all team members)
