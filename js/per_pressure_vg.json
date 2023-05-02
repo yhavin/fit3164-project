@@ -1,0 +1,38 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Decision success by disposal effectiveness",
+  "width": "container",
+  "height": 350,
+  "data": {"url": "https://raw.githubusercontent.com/yyhav1/fit3164-project/main/data/decisions_per_pressure.csv"},
+  
+  "encoding": {
+    "x": {
+      "field": "Average_Pressure",
+      "title": "Average pressure points",
+      "type": "ordinal"
+    },
+    "y": {
+      "field": "Success_Rate",
+      "type": "quantitative",
+      "axis": {"format": "%"},
+      "title": "Success rate"
+    }
+  },
+  "layer": [
+      {"mark": {"type": "line", "color": "#239628", "point": {"color": "#239628"}}},
+      {
+        "mark": {
+          "type": "text",
+          "align": "center",
+          "dy": -10
+        },
+        "encoding": {
+          "text": {
+            "field": "Success_Rate", 
+            "type": "quantitative", 
+            "format": ".2%"
+          }
+        }
+      }
+  ]
+}
