@@ -1,0 +1,29 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Decision success per quarter",
+  "width": "container",
+  "height": 350,
+  "data": {"url": "https://raw.githubusercontent.com/yyhav1/fit3164-project/main/Analysis/decisions_per_quarter.csv"},
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "Quarter",
+      "type": "nominal"
+    },
+    "y": {
+      "aggregate": "count",
+      "type": "quantitative",
+      "title": "Proportion of decisions",
+      "stack": "normalize"
+    },
+    "color": {
+      "field": "Classification",
+      "type": "nominal",
+      "scale": {
+        "domain": ["GOOD", "BAD"],
+        "range": ["#239628", "#d1490f"]
+      },
+      "title": "Classification"
+    }
+  }
+}
