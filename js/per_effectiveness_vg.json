@@ -1,0 +1,28 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Decision success by disposal effectiveness",
+  "width": "container",
+  "height": 350,
+  "data": {
+    "values" :[
+      {"Effectiveness": "0 - 0.6", "Success rate": 0.6667},
+      {"Effectiveness": "0.6 - 0.72", "Success rate": 0.5385},
+      {"Effectiveness": "0.72 - 0.84", "Success rate": 0.4490},
+      {"Effectiveness": "0.84 - 0.96", "Success rate": 0.7143},
+      {"Effectiveness": "0.96 - 0.1", "Success rate": 0.6667}
+    ]
+  },
+  "mark": {"type": "area", "color": "#239628"},
+  "encoding": {
+    "x": {
+      "field": "Effectiveness",
+      "title": "Disposal effectiveness",
+      "type": "ordinal"
+    },
+    "y": {
+      "field": "Success rate",
+      "type": "quantitative",
+      "axis": {"format": "%"}
+    }
+  }
+}
