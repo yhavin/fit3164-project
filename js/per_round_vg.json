@@ -3,7 +3,7 @@
   "title": "Decision success per round",
   "width": "container",
   "height": 350,
-  "data": {"url": "https://raw.githubusercontent.com/yyhav1/fit3164-project/main/Analysis/decisions_per_round.csv"},
+  "data": {"url": "https://raw.githubusercontent.com/yyhav1/fit3164-project/main/data/decisions_per_round.csv"},
   "mark": "bar",
   "encoding": {
     "x": {
