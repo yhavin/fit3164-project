@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Decision success by disposal effectiveness",
+  "title": "Decision success by average pressure",
   "width": "container",
   "height": 350,
   "data": {"url": "https://raw.githubusercontent.com/yyhav1/fit3164-project/main/data/decisions_per_pressure.csv"},
