@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)file:///Users/raofu/Downloads/Progressus/about.html -->
+<html lang="en">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="Sergey Pozhilov (GetTemplate.com)">
+        
+        <title>About - Progressus Bootstrap template</title>
+    
+        <link rel="shortcut icon" href="file:///Users/raofu/Downloads/Progressus/assets/images/gt_favicon.png">
+        
+        <link rel="stylesheet" media="screen" href="./About - Progressus Bootstrap template_files/css">
+        <link rel="stylesheet" href="./About - Progressus Bootstrap template_files/bootstrap.min.css">
+        <link rel="stylesheet" href="./About - Progressus Bootstrap template_files/font-awesome.min.css">
+    
+        <!-- Custom styles for our template -->
+        <link rel="stylesheet" href="./About - Progressus Bootstrap template_files/bootstrap-theme.css" media="screen">
+        <link rel="stylesheet" href="./About - Progressus Bootstrap template_files/main.css">
+    
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+        <script src="assets/js/html5shiv.js"></script>
+        <script src="assets/js/respond.min.js"></script>
+        <![endif]-->
+
+     <!-- Import Vega & Vega-Lite -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.22.1"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.5.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.21.0"></script>
+  
+
+  <!-- Pure CSS library -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/pure-min.css" integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/grids-responsive-min.css" />
+
+</head>
+
+<body style>
+	<!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top headroom animated slideDown">
+		<div class="container">
+			<div class="navbar-header">
+				<!-- Button for smallest screens -->
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> 
+
+				
+			</div>
+			<div class="navbar-collapse collapse" style="height: 0px;">
+				<ul class="nav navbar-nav pull-right">
+					<li class="active"><a href="file:///Users/raofu/Downloads/Progressus/index.html#">Home</a></li>
+					<li><a href="file:///Users/raofu/Downloads/Progressus/about.html">About</a></li>
+					<li>
+<a href="file:///Users/raofu/Downloads/Progressus/analysis.html">Analysis</a>
+</li>
+					<li><a href="file:///Users/raofu/Downloads/Progressus/contact.html">Contact</a></li>
+					
+				</ul>
+			</div><!--/.nav-collapse -->
+		</div>
+	</div>
+
+
+
+	<!-- /.navbar -->
+
+	<header id="head" class="secondary"></header>
+
+	<!-- container -->
+	<div class="container">
+
+		<ol class="breadcrumb">
+			<li><a href="file:///Users/raofu/Downloads/Progressus/index.html">Home</a></li>
+			<li class="active">Analysis</li>
+		</ol>
+
+
+            <div class="pure-g">
+                <!-- Left margin -->
+                <div class="pure-u-1-8">
+                  <div id="margin"></div>
+                </div>
+            
+                <!-- Middle section for content -->
+                <div class="pure-u-3-4">
+                  <div id="container">
+                   
+            
+                    <hr>
+            
+                    <!-- Bump chart heading -->
+                    <div id="bump_heading">
+                      <h3>Which park gets the most visitors?</h3>
+                      <h6>Click the legend to highlight</h6>
+                    </div>
+            
+                    <!-- Bump chart grid -->
+                    <div class="pure-g">
+                      <!-- Chart -->
+                      <div class="pure-u-3-4">
+                        <div id="bump_chart" style="width: 100%"></div>
+                      </div>
+                      <!-- Text -->
+                      <div class="pure-u-1-4">
+                        <div id="bump_chart_text">
+                          <ul class="right_side_text">
+                            <li>This bump chart shows only the top 10 parks overall</li>
+                            <li>The <span style="color: #54a24b; font-family: NationalPark-Bold">Great Smoky Mountains</span> has maintained the top rank throughout</li>
+                            <li><span style="color: #439894; font-family: NationalPark-Bold">Yosemite</span> has seen the biggest drop, going from rank 3 to rank 8. It also had the biggest drop during COVID-19 park closure in <span class="weighted_text">2020</span></li>
+                            <li><span style="color: #4c78a8; font-family: NationalPark-Bold">Acadia</span> has seen the biggest jump, going from rank 10 to rank 6</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+            
+                    <div class="divider"></div>
+            
+                    <!-- Small multiples heading -->
+                    <div id="small_multiples_heading">
+                      <h3>Which season gets the most visitors?</h3>
+                      <h6>Click a bubble to highlight; double-click to unhighlight</h6>
+                    </div>
+            
+                    <!-- Small multiples grid -->
+                    <div class="pure-g">
+                      <!-- Text -->
+                      <div class="pure-u-1-4">
+                        <div id="bump_chart_text">
+                          <ul class="left_side_text">
+                            <li>Visitor numbers are aggregated across all years</li>
+                            <li>As expected, <span class="weighted_text">Summer</span> has the most visitors, and <span class="weighted_text">Winter</span> the fewest</li>
+                            <li>It is interesting that <span class="weighted_text">Autumn</span> has more visitors than <span class="weighted_text">Spring</span>; this may be due to more public holidays occurring in Autumn</li>
+                            <li>The <span class="weighted_text">Great Smoky Mountains</span> appears to be the only highly visited park on the East Coast, while the West Coast boasts many</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <!-- Chart -->
+                      <div class="pure-u-3-4">
+                        <div id="small_multiples"></div> <!-- Cannot set responsive container width for Vega-Lite repeat elements -->
+                      </div>
+                    </div>
+            
+                    <div class="divider" style="height: 35px"></div>
+            
+                    <!-- Stacked chart heading -->
+                    <div id="stacked_heading">
+                      <h3>How do visitors like to camp?</h3>
+                      <h6>Click the legend and use the menus to filter</h6>
+                    </div>
+            
+                    <!-- Stacked chart grid -->
+                    <div class="pure-g">
+                      <!-- Chart -->
+                      <div class="pure-u-3-4">
+                        <div id="stacked_chart" style="width: 100%"></div>
+                      </div>
+                      <!-- Text -->
+                      <div class="pure-u-1-4">
+                        <div id="stacked_chart_text">
+                          <ul class="right_side_text">
+                            <li><span class="backcountry_text">Backcountry</span> camping means tent camping away from designated campsites, with no facilities</li>
+                            <li>While <span class="tent_text">Tent</span> camping is typically the most popular, it depends on the park (for example, <span class="weighted_text">Hot Springs</span> has a high proportion of <span class="rv_text">RV</span> camping)</li>
+                            <li>We can see a similar trend as above, where <span class="weighted_text">Summer</span> months usually have the highest overall camping numbers</li>
+                            <li><span class="weighted_text">April 2020</span> had virtually no camping (or visitation) due to COVID-19</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+            
+                    <div class="divider"></div>
+            
+                    <!-- Timeline heading -->
+                    <div id="timeline_heading">
+                      <h3>When was each park established?</h3>
+                      <h6>Click the legend to highlight</h6>
+                    </div>
+            
+                    <!-- Timeline grid -->
+                    <div class="pure-g">
+                      <!-- Text -->
+                      <div class="pure-u-1-4">
+                        <div id="bump_chart_text">
+                          <ul class="left_side_text">
+                            <li>Some lines have been slightly spaced to increase readability (use tooltips for exact years)</li>
+                            <li>Line heights do not encode data; they are made algorithmically to increase readability</li>
+                            <li><span class="weighted_text">Yellowstone</span> was by far the earliest park established</li>
+                            <li>In general, the <span style="color: #72b7b2; font-family: NationalPark-Bold">Pacific West</span> parks were established quite early, whereas the <span style="color: #54a24b; font-family: NationalPark-Bold">Southeast</span> parks were later</li>
+                            <li>The years <span class="weighted_text">1931-1939</span> saw the establishment of nine parks</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <!-- Chart -->
+                      <div class="pure-u-3-4">
+                        <div id="timeline" style="width: 100%"></div>
+                      </div>
+                    </div>
+            
+                    <div class="divider"></div>
+                    <p style="margin-left: 50px; font-family: NationalPark-Regular; font-size: 9px; color: var(--npslightbrown)">Sources: National Park Service, Wikipedia</p>
+                    <div class="divider" style="height: 30px"></div>
+                  </div>
+                </div>
+                
+                <!-- Right margin -->
+                <div class="pure-u-1-8">
+                  <div id="margin"></div>
+                </div>
+              </div>
+            
+			
+			<!-- Article main content -->
+		
+			<!-- /Article -->
+			
+			<!-- Sidebar -->
+			
+			<!-- /Sidebar -->
+
+		</div>
+	</div>	<!-- /container -->
+	
+
+	<footer id="footer" class="top-space">
+
+		<div class="footer1">
+			<div class="container">
+				<div class="row">
+					
+					<div class="col-md-3 widget">
+						<h3 class="widget-title">Contact</h3>
+						<div class="widget-body">
+							<p>
+								<a href="mailto:#">yyhav1@student.monash.edu<br></a><a href="mailto:#">rfu9@student.monash.edu<br></a><a href="mailto:#">zzha0148@student.monash.edu</a><br>
+								<br>Monash University Wellington Rd CLAYTON VIC 3800 Australia</p>	
+						</div>
+					</div>
+
+					
+
+					
+
+				<div class="col-md-6 widget">
+						<h3 class="widget-title">Some notes</h3>
+						<div class="widget-body">
+							<p>Notes</p>
+							
+						</div>
+					</div></div> <!-- /row of widgets -->
+			</div>
+		</div>
+
+		<div class="footer2">
+			<div class="container">
+				<div class="row">
+					
+					<div class="col-md-6 widget">
+						<div class="widget-body">
+							<p class="simplenav">
+								<a href="file:///Users/raofu/Downloads/Progressus/index.html#">Home</a> | 
+								<a href="file:///Users/raofu/Downloads/Progressus/about.html">About</a> |
+								<a href="file:///Users/raofu/Downloads/Progressus/analysis.html">Analysis</a> |
+								<a href="file:///Users/raofu/Downloads/Progressus/contact.html">Contact</a>
+							</p>
+						</div>
+					</div>
+
+					<div class="col-md-6 widget">
+						<div class="widget-body">
+							<p class="text-right"><a>Copyright © 2023, Monash University. Designed by Yakir, Rao and Zebing.</a> 
+							</p>
+						</div>
+					</div>
+
+				</div> <!-- /row of widgets -->
+			</div>
+		</div>
+
+	</footer>	
+		
+
+
+
+
+	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+	<script src="./About - Progressus Bootstrap template_files/jquery.min.js"></script>
+	<script src="./About - Progressus Bootstrap template_files/bootstrap.min.js"></script>
+	<script src="./About - Progressus Bootstrap template_files/headroom.min.js"></script>
+	<script src="./About - Progressus Bootstrap template_files/jQuery.headroom.min.js"></script>
+	<script src="./About - Progressus Bootstrap template_files/template.js"></script>
+
+    <script type="text/javascript">
+
+        var spec1 = "https://raw.githubusercontent.com/yyhav1/fit3164-project/main/js/per_effectiveness_vg.json";
+        var spec2 = "https://raw.githubusercontent.com/yyhav1/fit3164-project/main/js/per_pressure_vg.json";
+        var spec3 = "https://raw.githubusercontent.com/yyhav1/fit3164-project/main/js/per_quarter_vg.json";
+        var spec4 = "https://raw.githubusercontent.com/yyhav1/fit3164-project/main/js/per_round_vg.json";
+    
+        vegaEmbed('#bump_chart', spec1).then(function(result) {
+          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+    
+        vegaEmbed('#small_multiples', spec2).then(function(result) {
+          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+    
+        vegaEmbed('#stacked_chart', spec3).then(function(result) {
+          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+    
+        vegaEmbed('#timeline', spec4).then(function(result) {
+          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+    
+      </script>
+</body></html>
