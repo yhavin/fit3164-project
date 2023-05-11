@@ -1,3 +1,23 @@
+/*
+This code contains a series of CSS rules that define the visual styling of a website.
+
+The first section defines the style of a header element with an ID of "head". 
+It sets a background color, a background image that fills the entire header, a minimum height, and centers the text within it. 
+The font family, weight, and color are also defined. Additionally, there are styles defined for a "secondary" version of the header, which has a shorter height and no padding on top.
+
+The next section defines styles for elements inside the header. 
+The lead class defines the style for the main heading of the page, while the tagline class defines a smaller, secondary heading. 
+There is also a style for a button, with a default style and additional styles for when it is hovered over or clicked.
+
+The "@media" rule defines styles for when the screen width is less than 767 pixels, such as on a mobile device. 
+In this case, the height of the header is reduced, and the font size for the main heading is smaller.
+
+The remaining sections define styles for other elements on the page, such as highlights and typography. 
+There are also styles for the main content block, sidebars, and the footer.
+
+Overall, this code provides a consistent visual style for a website by defining the appearance of various elements on the page.
+*/
+
 /* Header */
 #head { background:#181015 url(https://resources.saints.com.au/photo-resources/2023/05/07/1a13d18f-cf29-445b-b388-870dbdea4851/bsy7KSjM.jpg?width=2480) no-repeat; background-size: cover; min-height:520px; text-align: center; padding-top:240px; color:white; font-family:"Open sans", Helvetica, Arial; font-weight:300; }
 #head.secondary { height:100px; min-height: 100px; padding-top:0px; }
