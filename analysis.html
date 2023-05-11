@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)file:///Users/raofu/Downloads/Progressus/about.html -->
+<html lang="en">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="Sergey Pozhilov (GetTemplate.com)">
+        
+        <title>About - Progressus Bootstrap template</title>
+    
+        <link rel="shortcut icon" href="file:///Users/raofu/Downloads/Progressus/assets/images/gt_favicon.png">
+        
+        <link rel="stylesheet" media="screen" href="./About - Progressus Bootstrap template_files/css">
+        <link rel="stylesheet" href="./About - Progressus Bootstrap template_files/bootstrap.min.css">
+        <link rel="stylesheet" href="./About - Progressus Bootstrap template_files/font-awesome.min.css">
+    
+        <!-- Custom styles for our template -->
+        <link rel="stylesheet" href="./About - Progressus Bootstrap template_files/bootstrap-theme.css" media="screen">
+        <link rel="stylesheet" href="./About - Progressus Bootstrap template_files/main.css">
+    
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+        <script src="assets/js/html5shiv.js"></script>
+        <script src="assets/js/respond.min.js"></script>
+        <![endif]-->
+
+     <!-- Import Vega & Vega-Lite -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.22.1"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.5.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.21.0"></script>
+  
+
+  <!-- Pure CSS library -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/pure-min.css" integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/grids-responsive-min.css" />
+
+</head>
+
+<body style>
+	<!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top headroom animated slideDown">
+		<div class="container">
+			<div class="navbar-header">
+				<!-- Button for smallest screens -->
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> 
+
+				
+			</div>
+			<div class="navbar-collapse collapse" style="height: 0px;">
+				<ul class="nav navbar-nav pull-right">
+					<li class="active"><a href="file:///Users/raofu/Downloads/Progressus/index.html#">Home</a></li>
+					<li><a href="file:///Users/raofu/Downloads/Progressus/about.html">About</a></li>
+					<li>
+<a href="file:///Users/raofu/Downloads/Progressus/analysis.html">Analysis</a>
+</li>
+					<li><a href="file:///Users/raofu/Downloads/Progressus/contact.html">Contact</a></li>
+					
+				</ul>
+			</div><!--/.nav-collapse -->
+		</div>
+	</div>
+
+
+
+	<!-- /.navbar -->
+
+	<header id="head" class="secondary"></header>
+
+	<!-- container -->
+	<div class="container">
+
+		<ol class="breadcrumb">
+			<li><a href="file:///Users/raofu/Downloads/Progressus/index.html">Home</a></li>
+			<li class="active">Analysis</li>
+		</ol>
+
+
+            <div class="pure-g">
+                <!-- Left margin -->
+                <div class="pure-u-1-8">
+                  <div id="margin"></div>
+                </div>
+            
+                <!-- Middle section for content -->
+                <div class="pure-u-3-4">
+                  <div id="container">
+                   
+            
+                    <hr>
+                    <br>
+                    <!-- Bump chart heading -->
+                    <div id="bump_heading">
+                      <h3>How does success rate vary with different levels of disposal effectiveness?</h3>
+                    </div>
+                    <br><br>
+                    <!-- Bump chart grid -->
+                    <div class="pure-g">
+                      <!-- Chart -->
+                      <div class="pure-u-3-4">
+                        <div id="bump_chart" style="width: 100%"></div>
+                      </div>
+                      <!-- Text -->
+                      <div class="pure-u-1-4">
+                        <div id="bump_chart_text">
+                          <ul class="right_side_text">
+                            <li>1. The visualization displays how success rate varies with different levels of disposal effectiveness. </li>
+                            <li>2. ......</li>
+                            <li>3. ......</li>
+
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+            
+                    <div class="divider"></div>
+
+                    <br><br>
+            
+                    <!-- Small multiples heading -->
+                    <div id="small_multiples_heading">
+                      <h3>How does the success rate change with different average pressure points?</h3>
+                    </div>
+                    <br><br>
+                    <!-- Small multiples grid -->
+                    <div class="pure-g">
+                      <!-- Text -->
+                      <div class="pure-u-1-4">
+                        <div id="bump_chart_text">
+                          <ul class="left_side_text">
+                            <li>1. The graph is essentially a representation of how the success rate changes with different average pressure points.</li>
+                            <li>2. ......</li>
+                            <li>3. ......</li>
+
+                          </ul>
+                        </div>
+                      </div>
+                      <!-- Chart -->
+                      <div class="pure-u-3-4">
+                        <div id="small_multiples"></div> <!-- Cannot set responsive container width for Vega-Lite repeat elements -->
+                      </div>
+                    </div>
+            
+                    <br><br>
+
+                    <div class="divider" style="height: 35px"></div>
+            
+                    <!-- Stacked chart heading -->
+                    <div id="stacked_heading">
+                      <h3>The distribution and trends of decision success across different quarters</h3>
+                    </div>
+                    <br><br>
+                    <!-- Stacked chart grid -->
+                    <div class="pure-g">
+                      <!-- Chart -->
+                      <div class="pure-u-3-4">
+                        <div id="stacked_chart" style="width: 100%"></div>
+                      </div>
+                      <!-- Text -->
+                      <div class="pure-u-1-4">
+                        <div id="stacked_chart_text">
+                          <ul class="right_side_text">
+                            <li>1. This graph effectively communicates the distribution and trends of decision success across different quarters.</li>
+                            <li>2. ......</li>
+                            <li>3. ......</li>
+
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+            
+                    <div class="divider"></div>
+            
+
+                    <br><br>
+
+                    <!-- Timeline heading -->
+                    <div id="timeline_heading">
+                      <h3>The count of good and bad decisions in each round</h3>
+                    </div>
+                    <br><br>
+                    <!-- Timeline grid -->
+                    <div class="pure-g">
+                      <!-- Text -->
+                      <div class="pure-u-1-4">
+                        <div id="bump_chart_text">
+                          <ul class="left_side_text">
+                            <li>1. This graph indicates a clear differentiation between good and bad decisions in each round.</li>
+                            <li>2. ......</li>
+                            <li>3. ......</li>
+
+                          </ul>
+                        </div>
+                      </div>
+                      <!-- Chart -->
+                      <div class="pure-u-3-4">
+                        <div id="timeline" style="width: 100%"></div>
+                      </div>
+                    </div>
+            
+                    <div class="divider"></div>
+                    <p style="margin-left: 50px; font-family: NationalPark-Regular; font-size: 9px; color: var(--npslightbrown)">Sources: National Park Service, Wikipedia</p>
+                    <div class="divider" style="height: 30px"></div>
+                  </div>
+                </div>
+                
+                <!-- Right margin -->
+                <div class="pure-u-1-8">
+                  <div id="margin"></div>
+                </div>
+              </div>
+            
+			
+			<!-- Article main content -->
+		
+			<!-- /Article -->
+			
+			<!-- Sidebar -->
+			
+			<!-- /Sidebar -->
+
+		</div>
+	</div>	<!-- /container -->
+	
+
+	<footer id="footer" class="top-space">
+
+		<div class="footer1">
+			<div class="container">
+				<div class="row">
+					
+					<div class="col-md-3 widget">
+						<h3 class="widget-title">Contact</h3>
+						<div class="widget-body">
+							<p>
+								<a href="mailto:#">yyhav1@student.monash.edu<br></a><a href="mailto:#">rfu9@student.monash.edu<br></a><a href="mailto:#">zzha0148@student.monash.edu</a><br>
+								<br>Monash University Wellington Rd CLAYTON VIC 3800 Australia</p>	
+						</div>
+					</div>
+
+					
+
+					
+
+				<div class="col-md-6 widget">
+						<h3 class="widget-title">Our partner：St Kilda Football Club</h3>
+						<div class="widget-body">
+							<p>The St Kilda Football Club, nicknamed the Saints, is a professional Australian rules football club based in Melbourne, Victoria. The club plays in the Australian Football League (AFL), the sport's premier league.
+
+								The club's name originates from its original home base in the bayside Melbourne suburb of St Kilda in which the club was established in 1873. The club also has strong links to the south-eastern suburb of Moorabbin, due to it being the long-standing location of their training ground.</p>
+							
+						</div>
+					</div></div> <!-- /row of widgets -->
+			</div>
+		</div>
+
+		<div class="footer2">
+			<div class="container">
+				<div class="row">
+					
+					<div class="col-md-6 widget">
+						<div class="widget-body">
+							<p class="simplenav">
+								<a href="file:///Users/raofu/Downloads/Progressus/index.html#">Home</a> | 
+								<a href="file:///Users/raofu/Downloads/Progressus/about.html">About</a> |
+								<a href="file:///Users/raofu/Downloads/Progressus/analysis.html">Analysis</a> |
+								<a href="file:///Users/raofu/Downloads/Progressus/contact.html">Contact</a>
+							</p>
+						</div>
+					</div>
+
+					<div class="col-md-6 widget">
+						<div class="widget-body">
+							<p class="text-right"><a>Copyright © 2023, Monash University. Designed by Yakir, Rao and Zebing.</a> 
+							</p>
+						</div>
+					</div>
+
+				</div> <!-- /row of widgets -->
+			</div>
+		</div>
+
+	</footer>
+		
+
+
+
+
+	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+	<script src="./About - Progressus Bootstrap template_files/jquery.min.js"></script>
+	<script src="./About - Progressus Bootstrap template_files/bootstrap.min.js"></script>
+	<script src="./About - Progressus Bootstrap template_files/headroom.min.js"></script>
+	<script src="./About - Progressus Bootstrap template_files/jQuery.headroom.min.js"></script>
+	<script src="./About - Progressus Bootstrap template_files/template.js"></script>
+
+    <script type="text/javascript">
+
+        var spec1 = "https://raw.githubusercontent.com/yyhav1/fit3164-project/main/js/per_effectiveness_vg.json";
+        var spec2 = "https://raw.githubusercontent.com/yyhav1/fit3164-project/main/js/per_pressure_vg.json";
+        var spec3 = "https://raw.githubusercontent.com/yyhav1/fit3164-project/main/js/per_quarter_vg.json";
+        var spec4 = "https://raw.githubusercontent.com/yyhav1/fit3164-project/main/js/per_round_vg.json";
+    
+        vegaEmbed('#bump_chart', spec1).then(function(result) {
+          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+    
+        vegaEmbed('#small_multiples', spec2).then(function(result) {
+          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+    
+        vegaEmbed('#stacked_chart', spec3).then(function(result) {
+          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+    
+        vegaEmbed('#timeline', spec4).then(function(result) {
+          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+    
+      </script>
+</body></html>
