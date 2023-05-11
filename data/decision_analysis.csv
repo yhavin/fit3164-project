@@ -1,93 +1,93 @@
-﻿Decision,Round,Quarter,Events,Disposals,Effective_Disposals,Effectiveness,Effectiveness_Bracket,Pressure_Points,Pressure_Acts,Average_Pressure,Average_Pressure_Bracket,Margin_Change_100_Events,Won_Game,Type,Classification,Classification_Binary
-STK2022001,1,1,354,67,52,0.7761,0.7201 - 0.8400,157.15,87,1.8063,1.5201 - 1.9000,-1,N,Structural,BAD,0
-STK2022002,1,1,272,63,48,0.7619,0.7201 - 0.8400,150.9,81,1.863,1.5201 - 1.9000,6,N,Structural,GOOD,1
-STK2022003,1,1,198,36,29,0.8056,0.7201 - 0.8400,73.95,45,1.6433,1.5201 - 1.9000,0,N,Structural,GOOD,1
-STK2022004,1,1,131,22,17,0.7727,0.7201 - 0.8400,58.6,30,1.9533,1.9001 - 2.2800,-7,N,Personnel,BAD,0
-STK2022005,1,2,775,139,113,0.8129,0.7201 - 0.8400,271.1,171,1.5854,1.5201 - 1.9000,-1,N,Personnel,BAD,0
-STK2022006,1,3,124,18,15,0.8333,0.7201 - 0.8400,63.05,27,2.3352,2.2801 - 2.6600,-7,N,Personnel,BAD,0
-STK2022007,1,3,919,174,136,0.7816,0.7201 - 0.8400,391.8,221,1.7729,1.5201 - 1.9000,-1,N,Personnel,BAD,0
-STK2022008,1,4,119,23,16,0.6957,0.6001 - 0.7200,77.9,35,2.2257,1.9001 - 2.2800,1,N,Style,GOOD,1
-STK2022009,1,4,149,27,25,0.9259,0.8401 - 0.9600,82.55,36,2.2931,2.2801 - 2.6600,0,N,Structural,GOOD,1
-STK2022010,1,4,398,87,73,0.8391,0.7201 - 0.8400,205.55,114,1.8031,1.5201 - 1.9000,-6,N,Style,BAD,0
-STK2022011,2,1,580,120,97,0.8083,0.7201 - 0.8400,299.05,159,1.8808,1.5201 - 1.9000,1,Y,Personnel,GOOD,1
-STK2022012,2,1,364,80,64,0.8,0.7201 - 0.8400,191.45,105,1.8233,1.5201 - 1.9000,-6,Y,Structural,BAD,0
-STK2022013,2,2,315,63,55,0.873,0.8401 - 0.9600,136.15,80,1.7019,1.5201 - 1.9000,-1,Y,Structural,BAD,0
-STK2022014,2,2,505,100,75,0.75,0.7201 - 0.8400,264.25,134,1.972,1.9001 - 2.2800,-6,Y,Structural,BAD,0
-STK2022015,2,3,487,92,70,0.7609,0.7201 - 0.8400,206.15,118,1.747,1.5201 - 1.9000,0,Y,Personnel,GOOD,1
-STK2022016,2,3,107,17,12,0.7059,0.6001 - 0.7200,47.05,26,1.8096,1.5201 - 1.9000,1,Y,Personnel,GOOD,1
-STK2022017,2,3,199,36,25,0.6944,0.6001 - 0.7200,88.8,51,1.7412,1.5201 - 1.9000,0,Y,Structural,GOOD,1
-STK2022018,2,4,185,44,36,0.8182,0.7201 - 0.8400,105.05,58,1.8112,1.5201 - 1.9000,-1,Y,Style,BAD,0
-STK2022019,2,4,53,11,7,0.6364,0.6001 - 0.7200,33.95,14,2.425,2.2801 - 2.6600,-1,Y,Personnel,BAD,0
-STK2022020,2,4,26,2,2,1,0.9601 - 1.0000,6.45,6,1.075,0.0000 - 1.5200,0,Y,Structural,GOOD,1
-STK2022021,2,4,7,4,3,0.75,0.7201 - 0.8400,3,4,0.75,0.0000 - 1.5200,0,Y,Structural,GOOD,1
-STK2022022,2,4,27,5,4,0.8,0.7201 - 0.8400,20.25,7,2.8929,2.6601 - 3.7500,0,Y,Personnel,GOOD,1
-STK2022023,2,4,210,36,26,0.7222,0.7201 - 0.8400,88.5,46,1.9239,1.9001 - 2.2800,0,Y,Structural,GOOD,1
-STK2022024,2,4,142,28,20,0.7143,0.6001 - 0.7200,78.4,36,2.1778,1.9001 - 2.2800,-6,Y,Structural,BAD,0
-STK2022025,3,1,157,24,20,0.8333,0.7201 - 0.8400,56.35,33,1.7076,1.5201 - 1.9000,-12,Y,Structural,BAD,0
-STK2022026,3,1,179,32,29,0.9063,0.8401 - 0.9600,60.45,37,1.6338,1.5201 - 1.9000,7,Y,Personnel,GOOD,1
-STK2022027,3,1,98,15,14,0.9333,0.8401 - 0.9600,36.5,20,1.825,1.5201 - 1.9000,6,Y,Structural,GOOD,1
-STK2022028,3,1,593,104,86,0.8269,0.7201 - 0.8400,256.55,130,1.9735,1.9001 - 2.2800,-7,Y,Structural,BAD,0
-STK2022029,3,2,33,4,4,1,0.9601 - 1.0000,23.7,9,2.6333,2.2801 - 2.6600,-5,Y,Personnel,BAD,0
-STK2022030,3,2,190,39,32,0.8205,0.7201 - 0.8400,84.8,52,1.6308,1.5201 - 1.9000,-5,Y,Personnel,BAD,0
-STK2022031,3,2,130,22,19,0.8636,0.8401 - 0.9600,64.75,34,1.9044,1.9001 - 2.2800,-5,Y,Style,BAD,0
-STK2022032,3,2,91,16,14,0.875,0.8401 - 0.9600,30.15,17,1.7735,1.5201 - 1.9000,-6,Y,Structural,BAD,0
-STK2022033,3,2,467,95,78,0.8211,0.7201 - 0.8400,242.75,129,1.8818,1.5201 - 1.9000,-6,Y,Structural,BAD,0
-STK2022034,3,3,62,10,8,0.8,0.7201 - 0.8400,25.75,15,1.7167,1.5201 - 1.9000,-6,Y,Structural,BAD,0
-STK2022035,3,3,95,15,11,0.7333,0.7201 - 0.8400,55.8,27,2.0667,1.9001 - 2.2800,1,Y,Personnel,GOOD,1
-STK2022036,3,3,411,77,60,0.7792,0.7201 - 0.8400,202.65,99,2.047,1.9001 - 2.2800,-5,Y,Structural,BAD,0
-STK2022037,3,3,82,16,11,0.6875,0.6001 - 0.7200,36.7,18,2.0389,1.9001 - 2.2800,0,Y,Structural,GOOD,1
-STK2022038,3,3,621,103,90,0.8738,0.8401 - 0.9600,261.55,141,1.855,1.5201 - 1.9000,-6,Y,Structural,BAD,0
-STK2022039,3,4,270,53,45,0.8491,0.8401 - 0.9600,105.6,65,1.6246,1.5201 - 1.9000,0,Y,Personnel,GOOD,1
-STK2022040,4,1,598,109,87,0.7982,0.7201 - 0.8400,277.65,145,1.9148,1.9001 - 2.2800,-12,Y,Structural,BAD,0
-STK2022041,4,1,3,0,0,0,0.000 - 0.6000,0,0,0,0.0000 - 1.5200,13,Y,Personnel,GOOD,1
-STK2022042,4,1,174,27,21,0.7778,0.7201 - 0.8400,73.05,36,2.0292,1.9001 - 2.2800,13,Y,Style,GOOD,1
-STK2022043,4,1,299,46,39,0.8478,0.8401 - 0.9600,124.55,71,1.7542,1.5201 - 1.9000,6,Y,Structural,GOOD,1
-STK2022044,4,2,81,17,17,1,0.9601 - 1.0000,47.65,25,1.906,1.9001 - 2.2800,6,Y,Personnel,GOOD,1
-STK2022045,4,2,35,9,8,0.8889,0.8401 - 0.9600,23.55,11,2.1409,1.9001 - 2.2800,6,Y,Personnel,GOOD,1
-STK2022046,4,2,88,19,16,0.8421,0.8401 - 0.9600,38.05,20,1.9025,1.9001 - 2.2800,12,Y,Structural,GOOD,1
-STK2022047,4,2,26,3,2,0.6667,0.6001 - 0.7200,7.5,4,1.875,1.5201 - 1.9000,6,Y,Structural,GOOD,1
-STK2022048,4,2,38,6,2,0.3333,0.000 - 0.6000,13.15,6,2.1917,1.9001 - 2.2800,6,Y,Style,GOOD,1
-STK2022049,4,2,513,99,84,0.8485,0.8401 - 0.9600,203.5,129,1.5775,1.5201 - 1.9000,6,Y,Structural,GOOD,1
-STK2022050,4,3,136,31,23,0.7419,0.7201 - 0.8400,70.7,43,1.6442,1.5201 - 1.9000,0,Y,Personnel,GOOD,1
-STK2022051,4,3,400,85,67,0.7882,0.7201 - 0.8400,210.05,111,1.8923,1.5201 - 1.9000,6,Y,Structural,GOOD,1
-STK2022052,4,3,4,0,0,0,0.000 - 0.6000,0,0,0,0.0000 - 1.5200,-2,Y,Structural,BAD,0
-STK2022053,4,3,189,30,20,0.6667,0.6001 - 0.7200,85.3,40,2.1325,1.9001 - 2.2800,-2,Y,Structural,BAD,0
-STK2022054,4,4,248,56,48,0.8571,0.8401 - 0.9600,123.1,68,1.8103,1.5201 - 1.9000,6,Y,Structural,GOOD,1
-STK2022055,4,4,44,6,4,0.6667,0.6001 - 0.7200,33,11,3,2.6601 - 3.7500,-6,Y,Personnel,BAD,0
-STK2022056,4,4,219,52,43,0.8269,0.7201 - 0.8400,81.15,60,1.3525,0.0000 - 1.5200,-6,Y,Style,BAD,0
-STK2022057,4,4,236,49,44,0.898,0.8401 - 0.9600,85.9,59,1.4559,0.0000 - 1.5200,1,Y,Personnel,GOOD,1
-STK2022058,5,1,694,121,96,0.7934,0.7201 - 0.8400,333.9,167,1.9994,1.9001 - 2.2800,0,Y,Personnel,GOOD,1
-STK2022059,5,1,133,25,18,0.72,0.6001 - 0.7200,38.65,28,1.3804,0.0000 - 1.5200,6,Y,Style,GOOD,1
-STK2022060,5,1,121,21,16,0.7619,0.7201 - 0.8400,39.45,27,1.4611,0.0000 - 1.5200,1,Y,Style,GOOD,1
-STK2022061,5,2,145,28,23,0.8214,0.7201 - 0.8400,57.95,35,1.6557,1.5201 - 1.9000,-5,Y,Structural,BAD,0
-STK2022062,5,2,186,34,30,0.8824,0.8401 - 0.9600,66.25,43,1.5407,1.5201 - 1.9000,-12,Y,Personnel,BAD,0
-STK2022063,5,2,51,12,12,1,0.9601 - 1.0000,17.05,13,1.3115,0.0000 - 1.5200,6,Y,Style,GOOD,1
-STK2022064,5,2,156,27,23,0.8519,0.8401 - 0.9600,52.5,32,1.6406,1.5201 - 1.9000,6,Y,Structural,GOOD,1
-STK2022065,5,2,381,79,65,0.8228,0.7201 - 0.8400,184.05,106,1.7363,1.5201 - 1.9000,6,Y,Structural,GOOD,1
-STK2022066,5,3,130,26,22,0.8462,0.8401 - 0.9600,62.95,38,1.6566,1.5201 - 1.9000,0,Y,Structural,GOOD,1
-STK2022067,5,3,273,39,32,0.8205,0.7201 - 0.8400,103.35,56,1.8455,1.5201 - 1.9000,-1,Y,Style,BAD,0
-STK2022068,5,3,53,11,8,0.7273,0.7201 - 0.8400,30.85,13,2.3731,2.2801 - 2.6600,-6,Y,Personnel,BAD,0
-STK2022069,5,3,150,34,27,0.7941,0.7201 - 0.8400,77.55,42,1.8464,1.5201 - 1.9000,-6,Y,Personnel,BAD,0
-STK2022070,5,3,81,18,13,0.7222,0.7201 - 0.8400,43.95,21,2.0929,1.9001 - 2.2800,0,Y,Style,GOOD,1
-STK2022071,5,3,539,108,88,0.8148,0.7201 - 0.8400,225.9,136,1.661,1.5201 - 1.9000,0,Y,Personnel,GOOD,1
-STK2022072,5,4,23,4,3,0.75,0.7201 - 0.8400,8.4,4,2.1,1.9001 - 2.2800,0,Y,Style,GOOD,1
-STK2022073,5,4,117,15,11,0.7333,0.7201 - 0.8400,58.8,24,2.45,2.2801 - 2.6600,0,Y,Personnel,GOOD,1
-STK2022074,5,4,42,3,3,1,0.9601 - 1.0000,2.7,3,0.9,0.0000 - 1.5200,-1,Y,Personnel,BAD,0
-STK2022075,5,4,40,10,9,0.9,0.8401 - 0.9600,23.95,13,1.8423,1.5201 - 1.9000,0,Y,Structural,GOOD,1
-STK2022076,5,4,24,7,5,0.7143,0.6001 - 0.7200,11.4,8,1.425,0.0000 - 1.5200,6,Y,Structural,GOOD,1
-STK2022077,5,4,9,1,1,1,0.9601 - 1.0000,3.75,1,3.75,2.6601 - 3.7500,6,Y,Structural,GOOD,1
-STK2022078,8,1,249,48,40,0.8333,0.7201 - 0.8400,98.45,64,1.5383,1.5201 - 1.9000,-5,N,Structural,BAD,0
-STK2022079,8,1,268,47,36,0.766,0.7201 - 0.8400,125.6,65,1.9323,1.9001 - 2.2800,1,N,Structural,GOOD,1
-STK2022080,8,1,625,122,93,0.7623,0.7201 - 0.8400,301.2,158,1.9063,1.9001 - 2.2800,0,N,Style,GOOD,1
-STK2022081,8,2,26,6,4,0.6667,0.6001 - 0.7200,24.15,9,2.6833,2.6601 - 3.7500,-6,N,Personnel,BAD,0
-STK2022082,8,2,40,6,5,0.8333,0.7201 - 0.8400,18.15,9,2.0167,1.9001 - 2.2800,-12,N,Structural,BAD,0
-STK2022083,8,2,192,33,24,0.7273,0.7201 - 0.8400,85.15,42,2.0274,1.9001 - 2.2800,-6,N,Personnel,BAD,0
-STK2022084,8,2,123,22,19,0.8636,0.8401 - 0.9600,49.9,29,1.7207,1.5201 - 1.9000,6,N,Personnel,GOOD,1
-STK2022085,8,2,531,114,94,0.8246,0.7201 - 0.8400,264.1,150,1.7607,1.5201 - 1.9000,-1,N,Style,BAD,0
-STK2022086,8,3,555,120,100,0.8333,0.7201 - 0.8400,244.2,145,1.6841,1.5201 - 1.9000,7,N,Personnel,GOOD,1
-STK2022087,8,4,162,34,27,0.7941,0.7201 - 0.8400,72.5,42,1.7262,1.5201 - 1.9000,0,N,Personnel,GOOD,1
-STK2022088,8,4,83,12,8,0.6667,0.6001 - 0.7200,36,16,2.25,1.9001 - 2.2800,-1,N,Personnel,BAD,0
-STK2022089,8,4,235,40,35,0.875,0.8401 - 0.9600,89.4,54,1.6556,1.5201 - 1.9000,0,N,Personnel,GOOD,1
-STK2022090,8,4,27,9,7,0.7778,0.7201 - 0.8400,18.55,12,1.5458,1.5201 - 1.9000,-13,N,Personnel,BAD,0
-STK2022091,8,4,55,9,7,0.7778,0.7201 - 0.8400,25.65,14,1.8321,1.5201 - 1.9000,-13,N,Personnel,BAD,0
-STK2022092,8,4,89,18,17,0.9444,0.8401 - 0.9600,35.6,22,1.6182,1.5201 - 1.9000,-1,N,Style,BAD,0
+﻿Decision,Round,Quarter,Outcome_Sought,Events,Disposals,Effective_Disposals,Effectiveness,Effectiveness_Bracket,Pressure_Points,Pressure_Acts,Average_Pressure,Average_Pressure_Bracket,Margin_Change_100_Events,Won_Game,Type,Classification,Classification_Binary,,,
+STK2022001,1,1,"Mids to Play in front, getting caught on wrong side of ball",354,67,52,0.7761,0.7201 - 0.8400,157.15,87,1.8063,1.5201 - 1.9000,-1,N,Structural,BAD,0,,,
+STK2022002,1,1,"C'Player 48 high backs are attacPlayer 11, cant have too many Saints players running back to the goal square (1-2 only). Asked to pass message onto other fwds",272,63,48,0.7619,0.7201 - 0.8400,150.90,81,1.8630,1.5201 - 1.9000,6,N,Structural,GOOD,1,,,
+STK2022003,1,1,"1 & 2 mids stay outside 50, only 3 mid to go in (if any of them)",198,36,29,0.8056,0.7201 - 0.8400,73.95,45,1.6433,1.5201 - 1.9000,0,N,Structural,GOOD,1,,,
+STK2022004,1,1,"Doug not to kick in, end of qtr.",131,22,17,0.7727,0.7201 - 0.8400,58.60,30,1.9533,1.9001 - 2.2800,-7,N,Personnel,BAD,0,,,
+STK2022005,1,2,Swap Burnes to wing and Player 22 inside,775,139,113,0.8129,0.7201 - 0.8400,271.10,171,1.5854,1.5201 - 1.9000,-1,N,Personnel,BAD,0,,,
+STK2022006,1,3,"Player 26 on Ball, Player 21 Half back, Player 22 to the Wing",124,18,15,0.8333,0.7201 - 0.8400,63.05,27,2.3352,2.2801 - 2.6600,-7,N,Personnel,BAD,0,,,
+STK2022007,1,3,"Player 9am to play forward FTE, Player 23 to move forward so we have 6 forward",919,174,136,0.7816,0.7201 - 0.8400,391.80,221,1.7729,1.5201 - 1.9000,-1,N,Personnel,BAD,0,,,
+STK2022008,1,4,LDLs to go into the square Player 37er than line,119,23,16,0.6957,0.6001 - 0.7200,77.90,35,2.2257,1.9001 - 2.2800,1,N,Style,GOOD,1,,,
+STK2022009,1,4,Man on man on the switch (perimeter),149,27,25,0.9259,0.8401 - 0.9600,82.55,36,2.2931,2.2801 - 2.6600,0,N,Structural,GOOD,1,,,
+STK2022010,1,4,"Wings rip it forward from the centre bounce, back on the 45 and run hard. Defenders to push up hard at centre bounce",398,87,73,0.8391,0.7201 - 0.8400,205.55,114,1.8031,1.5201 - 1.9000,-6,N,Style,BAD,0,,,
+STK2022011,2,1,Use Player 35 as a mid if Player 30 looks tired,580,120,97,0.8083,0.7201 - 0.8400,299.05,159,1.8808,1.5201 - 1.9000,1,Y,Personnel,GOOD,1,,,
+STK2022012,2,1,Player 36 to Player 30. Get to the front as defensive mid on throw ins as your positioning is forcing our winger into the wrong spot,364,80,64,0.8000,0.7201 - 0.8400,191.45,105,1.8233,1.5201 - 1.9000,-6,Y,Structural,BAD,0,,,
+STK2022013,2,2,Player 38 to Player 32. We want to pull the pockets deeper on KIN-d,315,63,55,0.8730,0.8401 - 0.9600,136.15,80,1.7019,1.5201 - 1.9000,-1,Y,Structural,BAD,0,,,
+STK2022014,2,2,Want second defender to come up with his direct opponent so they don't have +1 at stoppages around the arc,505,100,75,0.7500,0.7201 - 0.8400,264.25,134,1.9720,1.9001 - 2.2800,-6,Y,Structural,BAD,0,,,
+STK2022015,2,3,Trying to get Player 11 more involved in the game,487,92,70,0.7609,0.7201 - 0.8400,206.15,118,1.7470,1.5201 - 1.9000,0,Y,Personnel,GOOD,1,,,
+STK2022016,2,3,When Player 9am goes forward we want Player 35 on wing and Player 13 inside,107,17,12,0.7059,0.6001 - 0.7200,47.05,26,1.8096,1.5201 - 1.9000,1,Y,Personnel,GOOD,1,,,
+STK2022017,2,3,We want a spare number behind the ball so move a forward back,199,36,25,0.6944,0.6001 - 0.7200,88.80,51,1.7412,1.5201 - 1.9000,0,Y,Structural,GOOD,1,,,
+STK2022018,2,4,"We don't want to play slow, kick-Player 16 for the rest of the quarter",185,44,36,0.8182,0.7201 - 0.8400,105.05,58,1.8112,1.5201 - 1.9000,-1,Y,Style,BAD,0,,,
+STK2022019,2,4,Swap Player 25 in Player 50 to get Player 25 deeper defensively,53,11,7,0.6364,0.6001 - 0.7200,33.95,14,2.4250,2.2801 - 2.6600,-1,Y,Personnel,BAD,0,,,
+STK2022020,2,4,We want to drop the winger 10m off the back of the stoppage,26,2,2,1.0000,0.9601 - 1.0000,6.45,6,1.0750,0.0000 - 1.5200,0,Y,Structural,GOOD,1,,,
+STK2022021,2,4,Need second forward to get higher at D50 stoppages so they can't back feed,7,4,3,0.7500,0.7201 - 0.8400,3.00,4,0.7500,0.0000 - 1.5200,0,Y,Structural,GOOD,1,,,
+STK2022022,2,4,Want to swap Player 48 and Player 35,27,5,4,0.8000,0.7201 - 0.8400,20.25,7,2.8929,2.6601 - 3.7500,0,Y,Personnel,GOOD,1,,,
+STK2022023,2,4,Want our forwards to play higher at stoppages,210,36,26,0.7222,0.7201 - 0.8400,88.50,46,1.9239,1.9001 - 2.2800,0,Y,Structural,GOOD,1,,,
+STK2022024,2,4,We want a spare number behind the ball so move a forward back,142,28,20,0.7143,0.6001 - 0.7200,78.40,36,2.1778,1.9001 - 2.2800,-6,Y,Structural,BAD,0,,,
+STK2022025,3,1,Adjusted D50 stoppage structure as they are holding 2 mids out,157,24,20,0.8333,0.7201 - 0.8400,56.35,33,1.7076,1.5201 - 1.9000,-12,Y,Structural,BAD,0,,,
+STK2022026,3,1,Want a small in the goal square at centre bounce,179,32,29,0.9063,0.8401 - 0.9600,60.45,37,1.6338,1.5201 - 1.9000,7,Y,Personnel,GOOD,1,,,
+STK2022027,3,1,Want to change the centre bounce structure,98,15,14,0.9333,0.8401 - 0.9600,36.50,20,1.8250,1.5201 - 1.9000,6,Y,Structural,GOOD,1,,,
+STK2022028,3,1,Player 38 to Player 11. Don't always want Player 31 deep on Grimes,593,104,86,0.8269,0.7201 - 0.8400,256.55,130,1.9735,1.9001 - 2.2800,-7,Y,Structural,BAD,0,,,
+STK2022029,3,2,Want Paton on Bolton not Player 50,33,4,4,1.0000,0.9601 - 1.0000,23.70,9,2.6333,2.2801 - 2.6600,-5,Y,Personnel,BAD,0,,,
+STK2022030,3,2,Want Player 29 to play on Grimes (almost like a defensive forward),190,39,32,0.8205,0.7201 - 0.8400,84.80,52,1.6308,1.5201 - 1.9000,-5,Y,Personnel,BAD,0,,,
+STK2022031,3,2,We want to get some ball control. Look for kick-Player 16,130,22,19,0.8636,0.8401 - 0.9600,64.75,34,1.9044,1.9001 - 2.2800,-5,Y,Style,BAD,0,,,
+STK2022032,3,2,Want to bring the genius in closer to the back of the ruck contest,91,16,14,0.8750,0.8401 - 0.9600,30.15,17,1.7735,1.5201 - 1.9000,-6,Y,Structural,BAD,0,,,
+STK2022033,3,2,Want forwards to hold on about the 50 for centre bounce (don't come in the square),467,95,78,0.8211,0.7201 - 0.8400,242.75,129,1.8818,1.5201 - 1.9000,-6,Y,Structural,BAD,0,,,
+STK2022034,3,3,Player 42 needs to hang around the arc on our entries,62,10,8,0.8000,0.7201 - 0.8400,25.75,15,1.7167,1.5201 - 1.9000,-6,Y,Structural,BAD,0,,,
+STK2022035,3,3,"Moving Player 30 from midfield to defence, Player 45 from defence to genius (forward) and Player 9am more midfield than forward",95,15,11,0.7333,0.7201 - 0.8400,55.80,27,2.0667,1.9001 - 2.2800,1,Y,Personnel,GOOD,1,,,
+STK2022036,3,3,"Want forwards higher up the ground in general, paddock structure",411,77,60,0.7792,0.7201 - 0.8400,202.65,99,2.0470,1.9001 - 2.2800,-5,Y,Structural,BAD,0,,,
+STK2022037,3,3,Want forwards up high for density in last 2mins of quarter,82,16,11,0.6875,0.6001 - 0.7200,36.70,18,2.0389,1.9001 - 2.2800,0,Y,Structural,GOOD,1,,,
+STK2022038,3,3,Want Player 49 behind the ball for a spare defender,621,103,90,0.8738,0.8401 - 0.9600,261.55,141,1.8550,1.5201 - 1.9000,-6,Y,Structural,BAD,0,,,
+STK2022039,3,4,Want Paton or Player 30 to be aware of Bolton sitting in corridor,270,53,45,0.8491,0.8401 - 0.9600,105.60,65,1.6246,1.5201 - 1.9000,0,Y,Personnel,GOOD,1,,,
+STK2022040,4,1,Want to change our hit to player at centre bounce,598,109,87,0.7982,0.7201 - 0.8400,277.65,145,1.9148,1.9001 - 2.2800,-12,Y,Structural,BAD,0,,,
+STK2022041,4,1,Tell Player 11 that we want him higher up the ground,3,0,0,0.0000,0.000 - 0.6000,0.00,0,0.0000,0.0000 - 1.5200,13,Y,Personnel,GOOD,1,,,
+STK2022042,4,1,Want to attack deeper going inside 50,174,27,21,0.7778,0.7201 - 0.8400,73.05,36,2.0292,1.9001 - 2.2800,13,Y,Style,GOOD,1,,,
+STK2022043,4,1,Want to adjust the positioning of off ball winger at D50 stoppage,299,46,39,0.8478,0.8401 - 0.9600,124.55,71,1.7542,1.5201 - 1.9000,6,Y,Structural,GOOD,1,,,
+STK2022044,4,2,Want Player 42 off the ground,81,17,17,1.0000,0.9601 - 1.0000,47.65,25,1.9060,1.9001 - 2.2800,6,Y,Personnel,GOOD,1,,,
+STK2022045,4,2,"Want Player 31 to use his tank and run their ruckmen around, give him the ball",35,9,8,0.8889,0.8401 - 0.9600,23.55,11,2.1409,1.9001 - 2.2800,6,Y,Personnel,GOOD,1,,,
+STK2022046,4,2,Change our hitspot and structure  at centre bounce withPlayer 31 rucPlayer 11,88,19,16,0.8421,0.8401 - 0.9600,38.05,20,1.9025,1.9001 - 2.2800,12,Y,Structural,GOOD,1,,,
+STK2022047,4,2,Want the aggressive half back at centre bounce to stop coming in and provide deeper protection,26,3,2,0.6667,0.6001 - 0.7200,7.50,4,1.8750,1.5201 - 1.9000,6,Y,Structural,GOOD,1,,,
+STK2022048,4,2,Want to move the ball a bit slower when in possession,38,6,2,0.3333,0.000 - 0.6000,13.15,6,2.1917,1.9001 - 2.2800,6,Y,Style,GOOD,1,,,
+STK2022049,4,2,Want the spare they are trying to get to have an opponent at centre bounce,513,99,84,0.8485,0.8401 - 0.9600,203.50,129,1.5775,1.5201 - 1.9000,6,Y,Structural,GOOD,1,,,
+STK2022050,4,3,Want Player 43 closer to his opponent,136,31,23,0.7419,0.7201 - 0.8400,70.70,43,1.6442,1.5201 - 1.9000,0,Y,Personnel,GOOD,1,,,
+STK2022051,4,3,"We want forwards to think about engaging defenders, don't just keep going up the ground",400,85,67,0.7882,0.7201 - 0.8400,210.05,111,1.8923,1.5201 - 1.9000,6,Y,Structural,GOOD,1,,,
+STK2022052,4,3,Spare behind the ball to protect lead,4,0,0,0.0000,0.000 - 0.6000,0.00,0,0.0000,0.0000 - 1.5200,-2,Y,Structural,BAD,0,,,
+STK2022053,4,3,Player 36 to Player 48. Want to drop our on ball winger 3metres back at D50 stoppages,189,30,20,0.6667,0.6001 - 0.7200,85.30,40,2.1325,1.9001 - 2.2800,-2,Y,Structural,BAD,0,,,
+STK2022054,4,4,We want our spare defender 5m off the back of the stoppage,248,56,48,0.8571,0.8401 - 0.9600,123.10,68,1.8103,1.5201 - 1.9000,6,Y,Structural,GOOD,1,,,
+STK2022055,4,4,Use our midfielders to rotate forward because we are low on rotations,44,6,4,0.6667,0.6001 - 0.7200,33.00,11,3.0000,2.6601 - 3.7500,-6,Y,Personnel,BAD,0,,,
+STK2022056,4,4,"Want to move into ball control, kick-Player 16 attack",219,52,43,0.8269,0.7201 - 0.8400,81.15,60,1.3525,0.0000 - 1.5200,-6,Y,Style,BAD,0,,,
+STK2022057,4,4,Move Player 48 forward because we might need him in ruck later,236,49,44,0.8980,0.8401 - 0.9600,85.90,59,1.4559,0.0000 - 1.5200,1,Y,Personnel,GOOD,1,,,
+STK2022058,5,1,We want Player 31 to come off when their ruck comes off,694,121,96,0.7934,0.7201 - 0.8400,333.90,167,1.9994,1.9001 - 2.2800,0,Y,Personnel,GOOD,1,,,
+STK2022059,5,1,We want to build the ball up and use more kick-Player 16 in defensive half,133,25,18,0.7200,0.6001 - 0.7200,38.65,28,1.3804,0.0000 - 1.5200,6,Y,Style,GOOD,1,,,
+STK2022060,5,1,We want forwards to press Player 16 tighter when they switch the ball,121,21,16,0.7619,0.7201 - 0.8400,39.45,27,1.4611,0.0000 - 1.5200,1,Y,Style,GOOD,1,,,
+STK2022061,5,2,Want to change structure at midfield stoppages. Shoulder cover defensively,145,28,23,0.8214,0.7201 - 0.8400,57.95,35,1.6557,1.5201 - 1.9000,-5,Y,Structural,BAD,0,,,
+STK2022062,5,2,Want midfielders to keep rotating,186,34,30,0.8824,0.8401 - 0.9600,66.25,43,1.5407,1.5201 - 1.9000,-12,Y,Personnel,BAD,0,,,
+STK2022063,5,2,We want to take more territory from D50 when in possession,51,12,12,1.0000,0.9601 - 1.0000,17.05,13,1.3115,0.0000 - 1.5200,6,Y,Style,GOOD,1,,,
+STK2022064,5,2,We want Player 45 to work really deep defensively as a forward to help us get out of D50,156,27,23,0.8519,0.8401 - 0.9600,52.50,32,1.6406,1.5201 - 1.9000,6,Y,Structural,GOOD,1,,,
+STK2022065,5,2,We want forwards up the ground to help us defend. Paddock structure,381,79,65,0.8228,0.7201 - 0.8400,184.05,106,1.7363,1.5201 - 1.9000,6,Y,Structural,GOOD,1,,,
+STK2022066,5,3,Want Player 31 to stay out of F50 stoppages,130,26,22,0.8462,0.8401 - 0.9600,62.95,38,1.6566,1.5201 - 1.9000,0,Y,Structural,GOOD,1,,,
+STK2022067,5,3,When we are in paddock we can attack goal face more on our entry kicks,273,39,32,0.8205,0.7201 - 0.8400,103.35,56,1.8455,1.5201 - 1.9000,-1,Y,Style,BAD,0,,,
+STK2022068,5,3,Kick the ball away from Witts on KIN,53,11,8,0.7273,0.7201 - 0.8400,30.85,13,2.3731,2.2801 - 2.6600,-6,Y,Personnel,BAD,0,,,
+STK2022069,5,3,Want Player 30 taPlayer 11 KIN not Player 50,150,34,27,0.7941,0.7201 - 0.8400,77.55,42,1.8464,1.5201 - 1.9000,-6,Y,Personnel,BAD,0,,,
+STK2022070,5,3,Want to go into a ball control attack to protect the lead ,81,18,13,0.7222,0.7201 - 0.8400,43.95,21,2.0929,1.9001 - 2.2800,0,Y,Style,GOOD,1,,,
+STK2022071,5,3,Want Player 14 on ball at end of quarter,539,108,88,0.8148,0.7201 - 0.8400,225.90,136,1.6610,1.5201 - 1.9000,0,Y,Personnel,GOOD,1,,,
+STK2022072,5,4,Want players to prioritise holding the ball in for repeat stoppages,23,4,3,0.7500,0.7201 - 0.8400,8.40,4,2.1000,1.9001 - 2.2800,0,Y,Style,GOOD,1,,,
+STK2022073,5,4,Want Player 9am to do centre bounce and then play as a forward,117,15,11,0.7333,0.7201 - 0.8400,58.80,24,2.4500,2.2801 - 2.6600,0,Y,Personnel,GOOD,1,,,
+STK2022074,5,4,"Player 9am purely as a forward now, not even centre bounce",42,3,3,1.0000,0.9601 - 1.0000,2.70,3,0.9000,0.0000 - 1.5200,-1,Y,Personnel,BAD,0,,,
+STK2022075,5,4,Forward up to stoppage to play on their forward at the stoppage,40,10,9,0.9000,0.8401 - 0.9600,23.95,13,1.8423,1.5201 - 1.9000,0,Y,Structural,GOOD,1,,,
+STK2022076,5,4,Want a forward behind the ball to save the game,24,7,5,0.7143,0.6001 - 0.7200,11.40,8,1.4250,0.0000 - 1.5200,6,Y,Structural,GOOD,1,,,
+STK2022077,5,4,Want mids to play man v man at next centre bounce,9,1,1,1.0000,0.9601 - 1.0000,3.75,1,3.7500,2.6601 - 3.7500,6,Y,Structural,GOOD,1,,,
+STK2022078,8,1,Need Player 45 to assess the numbers ahead of the ball before he gets too high as a forward,249,48,40,0.8333,0.7201 - 0.8400,98.45,64,1.5383,1.5201 - 1.9000,-5,N,Structural,BAD,0,,,
+STK2022079,8,1,Want our 2nd highest forward at stoppages to drop back and engage his direct opponent,268,47,36,0.7660,0.7201 - 0.8400,125.60,65,1.9323,1.9001 - 2.2800,1,N,Structural,GOOD,1,,,
+STK2022080,8,1,Want to use shorter options by foot,625,122,93,0.7623,0.7201 - 0.8400,301.20,158,1.9063,1.9001 - 2.2800,0,N,Style,GOOD,1,,,
+STK2022081,8,2,Want Player 45 moved to wing and Player 48 to play as a forward,26,6,4,0.6667,0.6001 - 0.7200,24.15,9,2.6833,2.6601 - 3.7500,-6,N,Personnel,BAD,0,,,
+STK2022082,8,2,Want to change our centre bounce structure,40,6,5,0.8333,0.7201 - 0.8400,18.15,9,2.0167,1.9001 - 2.2800,-12,N,Structural,BAD,0,,,
+STK2022083,8,2,Player 9am to play as a forward only for rest of quarter,192,33,24,0.7273,0.7201 - 0.8400,85.15,42,2.0274,1.9001 - 2.2800,-6,N,Personnel,BAD,0,,,
+STK2022084,8,2,"Want to move Player 45 to defence from wing, Player 30 mid from defence and a midfielder either goes wing or forward",123,22,19,0.8636,0.8401 - 0.9600,49.90,29,1.7207,1.5201 - 1.9000,6,N,Personnel,GOOD,1,,,
+STK2022085,8,2,Want our Player 43 down the line kicks to go towards corridor,531,114,94,0.8246,0.7201 - 0.8400,264.10,150,1.7607,1.5201 - 1.9000,-1,N,Style,BAD,0,,,
+STK2022086,8,3,Want Player 48 as a forward if Player 31 goes into ruck,555,120,100,0.8333,0.7201 - 0.8400,244.20,145,1.6841,1.5201 - 1.9000,7,N,Personnel,GOOD,1,,,
+STK2022087,8,4,Need McKenzie on Langdon's wing,162,34,27,0.7941,0.7201 - 0.8400,72.50,42,1.7262,1.5201 - 1.9000,0,N,Personnel,GOOD,1,,,
+STK2022088,8,4,Get Jones off the ground,83,12,8,0.6667,0.6001 - 0.7200,36.00,16,2.2500,1.9001 - 2.2800,-1,N,Personnel,BAD,0,,,
+STK2022089,8,4,"Jones to play as a forward when he goes back on, Player 48 wing",235,40,35,0.8750,0.8401 - 0.9600,89.40,54,1.6556,1.5201 - 1.9000,0,N,Personnel,GOOD,1,,,
+STK2022090,8,4,Player 9am to start on ball and run hard forward,27,9,7,0.7778,0.7201 - 0.8400,18.55,12,1.5458,1.5201 - 1.9000,-13,N,Personnel,BAD,0,,,
+STK2022091,8,4,Move Player 11 to disconnected forward,55,9,7,0.7778,0.7201 - 0.8400,25.65,14,1.8321,1.5201 - 1.9000,-13,N,Personnel,BAD,0,,,
+STK2022092,8,4,Green Player 23e,89,18,17,0.9444,0.8401 - 0.9600,35.60,22,1.6182,1.5201 - 1.9000,-1,N,Style,BAD,0,,,

@@ -1,0 +1,74 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Decision browser",
+  "width": "container",
+  "height": 350,
+  "data": {
+    "url": "https://raw.githubusercontent.com/yyhav1/fit3164-project/main/data/decision_analysis.csv"
+  },
+  "params": [
+    {
+      "name": "round_picker",
+      "bind": {
+        "input": "select",
+        "options": [
+          1, 2, 3, 4, 5, 8
+        ],
+        "labels": [
+          "1", "2", "3", "4", "5", "8"
+        ],
+        "name": "Round: "
+      }
+    }
+  ],
+  "transform": [
+    {
+      "filter": "datum.Round == round_picker"
+    }
+  ],
+  "encoding": {
+    "x": {
+      "field": "Decision",
+      "type": "nominal",
+      "axis": {
+        "ticks": false,
+        "labels": false
+      }
+    },
+    "y": {
+      "field": "Margin_Change_100_Events",
+      "type": "quantitative",
+      "scale": {"padding": 20},
+      "title": "Margin change",
+      "axis": {
+        "gridColor": {
+          "condition": {"test": "datum.value === 0", "value": "black"},
+          "value": "#ddd"
+        }
+      }
+    },
+    "color": {
+      "field": "Classification",
+      "type": "nominal",
+      "scale": {
+        "domain": ["GOOD", "BAD"],
+        "range": ["#239628", "#d1490f"]
+      },
+      "legend": null
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "bar"
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "dy": {"expr": "datum.Margin_Change_100_Events < 0 ? 6 : -6"}
+      },
+      "encoding": {"text": {"field": "Margin_Change_100_Events", "type": "quantitative"}}
+    }
+  ]
+}
