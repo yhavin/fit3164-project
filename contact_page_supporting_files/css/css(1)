@@ -1,5 +1,13 @@
 /*
  * See: https://fonts.google.com/license/googlerestricted
+ 
+ This code defines a @font-face rule that specifies the font family, style, weight, and source for the "Google Sans Text" font. 
+ The font-style is set to normal and the font-weight is set to 400. 
+ The font source is defined using a URL that points to a .woff2 file hosted on the Google Fonts server. 
+ The font file is specified with a src attribute using the url() function. 
+ The format() function is used to specify the font format, in this case woff2. 
+ This code can be used to include the "Google Sans Text" font in a website or application.
+ 
  */
 @font-face {
   font-family: 'Google Sans Text';
