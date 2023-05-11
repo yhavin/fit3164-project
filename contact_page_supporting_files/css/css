@@ -1,6 +1,12 @@
 /*
  * See: https://fonts.google.com/license/googlerestricted
+ 
+ The code defines several @font-face rules for the Google Sans font with different unicode-range values to support different languages and scripts. 
+ The font is loaded from a URL in the src property for each rule, in the WOFF2 format. 
+ The font-family, font-style, and font-weight properties are set to define the font family name, style, and weight, respectively. 
+ The unicode-range property defines the Unicode range of characters for which the font should be used. 
  */
+ 
 /* armenian */
 @font-face {
   font-family: 'Google Sans';
