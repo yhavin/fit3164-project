@@ -1,3 +1,21 @@
+/*
+This is a block of CSS code that defines various styles for a navigation bar and its elements.
+
+The first section defines the style for the navigation bar. 
+It sets the background color, border radius, height, and padding. 
+It also sets the font color for the navigation links, and styles for the active and hover states of the links. 
+The media query at the bottom of this section applies these styles for screens with a maximum width of 767 pixels.
+
+The next section defines styles for buttons. 
+It sets the padding, font weight, border radius, and text shadow for all buttons, with specific styles for large and default buttons. 
+It also sets the default style for buttons, including the text shadow, background color, and box shadow, and styles for the active, hover, and focus states of the button.
+
+The last section defines styles for a jumbotron element, which is used for displaying large images and text. 
+It sets the background color, padding, and border radius, and styles for the headings inside the jumbotron element. 
+It also defines a style for rounded images with border radius of 3px.
+*/
+
+
 /*******************************/
 /*         Navigatioin         */
 /*******************************/
