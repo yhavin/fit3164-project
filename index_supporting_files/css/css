@@ -1,3 +1,12 @@
+/*
+This code defines several @font-face rules for the Open Sans font with different variations such as normal and 700 for various scripts such as Cyrillic, Greek, Hebrew, Vietnamese, and Latin.
+
+Each @font-face rule specifies a font family, font style, font weight, font stretch, a URL to the font file in woff2 format, and a Unicode range that defines which characters the font supports.
+
+For example, the @font-face rule for cyrillic-ext defines the Open Sans font family with a normal style, a weight of 300, and a stretch of 100%, and it specifies a URL to the woff2 font file that supports Cyrillic characters in the Unicode range U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, and U+FE2E-FE2F.
+*/
+
+
 /* cyrillic-ext */
 @font-face {
   font-family: 'Open Sans';
