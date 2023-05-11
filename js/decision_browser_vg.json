@@ -55,7 +55,10 @@
         "range": ["#239628", "#d1490f"]
       },
       "legend": null
-    }
+    },
+    "tooltip": [
+      {"field": "Outcome_Sought", "title": "Outcome sought"}
+    ]
   },
   "layer": [
     {
