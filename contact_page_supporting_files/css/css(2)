@@ -1,3 +1,16 @@
+/*
+This code is defining different font faces for the Open Sans font family, each with specific unicode ranges. 
+The font-weight is set to 300 or 400, and the font-stretch is set to 100% for all font faces.
+
+Each @font-face rule specifies the font-family, font-style, font-weight, src, and unicode-range properties.
+
+The unicode-range property is used to specify which characters are included in the font, based on their Unicode values. 
+This allows the browser to determine which font to use for a particular character based on its Unicode value.
+
+The different sections of the code, such as cyrillic, greek, hebrew, and latin, each specify a specific range of Unicode characters that are supported by the font. 
+For example, the cyrillic section includes characters used in Russian, while the greek section includes characters used in the Greek alphabet.
+*/
+
 /* cyrillic-ext */
 @font-face {
   font-family: 'Open Sans';
