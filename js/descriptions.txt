@@ -1,0 +1,25 @@
+### INDEX.HTML
+
+No descriptions needed under the four icons
+
+-----------------
+
+### ANALYSIS.HTML
+
+# Introductory paragraph above all charts
+Welcome to the coaching decision analysis. We have employed 100 Events Testing and other rigorous data science techniques to classify the 92 coaching decisions as good or bad, i.e., successful or unsuccessful. The 100 Events Test analyses the effect of the coaching decision on the next 100 transactions/events in the football match to determine success. The change in scoring margin, from the time of the decision compared to after 100 events, was used in our analysis to classify decisions as good or bad, and we then delved into possible causes and associations of success.
+
+There are of course manifold methods -- besides change in margin after 100 events -- to determine success of a coaching decision in such a dynamic and fast-moving game as Australian Rules Football. Additionally, our dataset only includes coaching decisions from six games, which makes the sample size of only medium size. Thus, it is imperative to read the following analysis with this understanding, and to give adequate -- but not conclusive -- credence to the results presented.
+
+With this in mind, we are pleased to present our analysis of the 92 coaching decisions made by the St Kilda Football Club coaching team during six games of the 2022 season.
+
+# Per round chart
+This grouped bar chart displays a count of the decisions made per round, grouped and coloured by success or failure. It can be seen that in rounds 2, 4, and 5, there were more successful decisions than unsuccessful, and all three of these games resulted in wins for St Kilda. In Round 5, during the win against Gold Coast, the coaching team had the most successful decisions with 14. In Round 3, during the win against Richmond, the coaching team had the most unsuccessful decisions with 10. This chart does not attempt to find association for success, as there is nothing meaningful about the number of the round being played. Rather, it is for information purposes only.
+
+# Per quarter chart
+This stacked chart shows the percentage split of good vs bad decisions based on the quarter of the game, across all six analysed games. This visualisation attempts to determine whether the coaching team appears to be more successful in its decision making at different points in the game. First quarters were most successful from our dataset, with a success rate of 65%, or about two thirds. This was followed by fourth quarters (60%), third quarters (52%), and second quarters (42%). Once again, without closer analysis, it is not credible to draw the immediate conclusion that the coaching team typically performs better in the first and fourth quarters (i.e., the beginning and end of games). However, insofar as what our data shows, we can see these results.
+
+# Per effectiveness chart
+This area chart visualises decision success rates based on different levels of effective disposal in the events following the decision. Effective disposal rate is a measure between 0 and 1 indicating the proportion of disposals that were done to the advantage of St Kilda, with 0 being completely ineffective and 1 being perfect. Based on football knowledge, it is plausible that effective disposal can lead to scoring, which affects margin positively and thus success of a decision. Our analysis found that decisions whose disposals were in the two higher effectiveness brackets (0.8401 - 0.9600 and 0.9601 - 1.0000) saw success rates of 71.43% and 66.67%. This is compared to lower success rates (53.85% and 44.90%) in the 0.6001 - 0.7200 and 0.7201 - 0.8400 disposal effectiveness brackets respectively. These results are suggestive of a positive link between higher disposal effectiveness and decision success. Interestingly, the lowest effectivness bracket (0.0000 - 0.6000) saw decision success of 66.67% as well.
+
+# Per pressure chart
