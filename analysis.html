@@ -1,16 +1,3 @@
-<!--This code is an HTML file that defines a webpage called "Analysis" and has a fixed navigation bar at the top. 
-The page includes four different visualizations of data using the Vega and Vega-Lite libraries.
-
-The first visualization is a area chart that displays how success rate varies with different levels of disposal effectiveness. 
-The second visualization is a line chart that shows how the success rate changes with different average pressure points. 
-The third visualization is a stacked chart that displays the distribution and trends of decision success across different quarters. 
-The fourth visualization is a bar chart that indicates the count of good and bad decisions in each round.
-
-The page also includes a footer that provides contact information and links to other pages on the website. 
-It also includes references to external CSS and JavaScript files to define styles and scripts. 
-The JavaScript code at the end of the file uses the Vega and Vega-Lite libraries to embed the visualizations in the page.
--->
-
 <!DOCTYPE html>
 <!-- saved from url=(0051)file:///Users/raofu/Downloads/Progressus/about.html -->
 <html lang="en">
@@ -98,10 +85,81 @@ The JavaScript code at the end of the file uses the Vega and Vega-Lite libraries
                 <!-- Middle section for content -->
                 <div class="pure-u-3-4">
                   <div id="container">
-                   
+
+                    <br>
+
+                <h1 class="page-title">Welcome to the coaching decision analysis</h1> <br>
+                   <p><img src="https://resources.saints.com.au/photo-resources/2023/05/10/08ffb24b-9621-4bf0-94e9-7262c1fe66df/qgWZ0Rq4.jpg?width=2480"> </p>
+                   <br>
+                   We have employed 100 Events Testing and other rigorous data science techniques to classify the 92 coaching decisions as good or bad, i.e., successful or unsuccessful. The 100 Events Test analyses the effect of the coaching decision on the next 100 transactions/events in the football match to determine success. The change in scoring margin, from the time of the decision compared to after 100 events, was used in our analysis to classify decisions as good or bad, and we then delved into possible causes and associations of success.
+
+                    There are of course manifold methods -- besides change in margin after 100 events -- to determine success of a coaching decision in such a dynamic and fast-moving game as Australian Rules Football. Additionally, our dataset only includes coaching decisions from six games, which makes the sample size of only medium size. 
+                    <br><br>Thus, it is imperative to read the following analysis with this understanding, and to give adequate -- but not conclusive -- credence to the results presented.
+                    
+                    With this in mind, we are pleased to present our analysis of the 92 coaching decisions made by the St Kilda Football Club coaching team during six games of the 2022 season.
+                   </p><br>
             
                     <hr>
                     <br>
+                      <!-- Timeline heading -->
+                      <div id="timeline_heading">
+                        <h3>The count of good and bad decisions in each round</h3>
+                      </div>
+                      <br><br>
+                      <!-- Timeline grid -->
+                      <div class="pure-g">
+                        <!-- Text -->
+                        <div class="pure-u-2-5">
+                          <div id="bump_chart_text">
+                            <ul class="left_side_text">
+                                <p>This grouped bar chart displays a count of the decisions made per round, grouped and coloured by success or failure. </li>
+                                <br><br>It can be seen that in rounds 2, 4, and 5, there were more successful decisions than unsuccessful, and all three of these games resulted in wins for St Kilda. </li>
+                                In Round 5, during the win against Gold Coast, the coaching team had the most successful decisions with 14. In Round 3, during the win against Richmond, the coaching team had the most unsuccessful decisions with 10.</li>
+                               <br> <br>This chart does not attempt to find association for success, as there is nothing meaningful about the number of the round being played. Rather, it is for information purposes only.
+                               </p>
+      
+                            </ul>
+                          </div>
+                        </div>
+                        <!-- Chart -->
+                        <div class="pure-u-3-5">
+                          <div id="timeline" style="width: 100%"></div>
+                        </div>
+                      </div>
+              
+                      <div class="divider"></div>
+                      <div class="divider" style="height: 30px"></div>
+                    </div>
+              
+
+                    <!-- Stacked chart heading -->
+                    <div id="stacked_heading">
+                        <h3>The distribution and trends of decision success across different quarters</h3>
+                      </div>
+                      <br><br>
+                      <!-- Stacked chart grid -->
+                      <div class="pure-g">
+                        <!-- Chart -->
+                        <div class="pure-u-3-5">
+                          <div id="stacked_chart" style="width: 100%"></div>
+                        </div>
+                        <!-- Text -->
+                        <div class="pure-u-2-5">
+                          <div id="stacked_chart_text">
+                            <ul class="right_side_text">
+                              <p>This stacked chart shows the percentage split of good vs bad decisions based on the quarter of the game, across all six analysed games. 
+                                  <br><br>This visualisation attempts to determine whether the coaching team appears to be more successful in its decision making at different points in the game. 
+                                  <br><br>First quarters were most successful from our dataset, with a success rate of 65%, or about two thirds. This was followed by fourth quarters (60%), third quarters (52%), and second quarters (42%). Once again, without closer analysis, it is not credible to draw the immediate conclusion that the coaching team typically performs better in the first and fourth quarters (i.e., the beginning and end of games). 
+                                  <br><br>However, insofar as what our data shows, we can see these results.
+                              </p>
+  
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+              
+                      <div class="divider"></div>
+              <br><br>
                     <!-- Bump chart heading -->
                     <div id="bump_heading">
                       <h3>How does success rate vary with different levels of disposal effectiveness?</h3>
@@ -109,21 +167,25 @@ The JavaScript code at the end of the file uses the Vega and Vega-Lite libraries
                     <br><br>
                     <!-- Bump chart grid -->
                     <div class="pure-g">
-                      <!-- Chart -->
-                      <div class="pure-u-3-4">
-                        <div id="bump_chart" style="width: 100%"></div>
-                      </div>
                       <!-- Text -->
-                      <div class="pure-u-1-4">
+                      <div class="pure-u-2-5">
                         <div id="bump_chart_text">
-                          <ul class="right_side_text">
-                            <li>1. The visualization displays how success rate varies with different levels of disposal effectiveness. </li>
-                            <li>2. ......</li>
-                            <li>3. ......</li>
+                          <ul class="left_side_text">
 
+                            <p>This area chart visualises decision success rates based on different levels of effective disposal in the events following the decision. 
+                                <br><br>Effective disposal rate is a measure between 0 and 1 indicating the proportion of disposals that were done to the advantage of St Kilda, with 0 being completely ineffective and 1 being perfect. 
+                                Based on football knowledge, it is plausible that effective disposal can lead to scoring, which affects margin positively and thus success of a decision. 
+                                <br><br>Our analysis found that decisions whose disposals were in the two higher effectiveness brackets (0.8401 - 0.9600 and 0.9601 - 1.0000) saw success rates of 71.43% and 66.67%. This is compared to lower success rates (53.85% and 44.90%) in the 0.6001 - 0.7200 and 0.7201 - 0.8400 disposal effectiveness brackets respectively. 
+                                <br><br>These results are suggestive of a positive link between higher disposal effectiveness and decision success. Interestingly, the lowest effectivness bracket (0.0000 - 0.6000) saw decision success of 66.67% as well.
+                            </p>
                           </ul>
                         </div>
                       </div>
+                      <!-- Chart -->
+                      <div class="pure-u-3-5">
+                        <div id="bump_chart" style="width: 100%"></div>
+                      </div>
+
                     </div>
             
                     <div class="divider"></div>
@@ -137,86 +199,58 @@ The JavaScript code at the end of the file uses the Vega and Vega-Lite libraries
                     <br><br>
                     <!-- Small multiples grid -->
                     <div class="pure-g">
+                    <!-- Chart -->
+                      <div class="pure-u-3-5">
+                        <div id="small_multiples" style="width: 100%"></div> <!-- Cannot set responsive container width for Vega-Lite repeat elements -->
+                      </div>
+       
                       <!-- Text -->
-                      <div class="pure-u-1-4">
+                      <div class="pure-u-2-5">
                         <div id="bump_chart_text">
-                          <ul class="left_side_text">
-                            <li>1. The graph is essentially a representation of how the success rate changes with different average pressure points.</li>
-                            <li>2. ......</li>
-                            <li>3. ......</li>
+                          <ul class="right_side_text">
+                            <p>This line chart illustrates decision success rates based on different levels of pressure applied by St Kilda players on their opponents. 
+                                <br><br>Pressure occurs when a player is nearby or tackling the opponent, thus causing difficulty to the opponent and often leading to ineffective disposal of the other team and turnovers. It is thus plausible that higher pressure applied to the opposing team could be a factor in decision success. 
+                                <br><br>However, from our analysis, we can see a trend in the opposite direction, where decisions whose subsequent events included higher average pressure points often ended up being less successful. This is at first glance counterintuitive, however there are possible explanations, such as the notion that applying intense pressure can cause fatigue, and thus even when the opposing team turns the ball over, St Kilda players find it difficult to score well.
+                            </p>
 
                           </ul>
                         </div>
                       </div>
-                      <!-- Chart -->
-                      <div class="pure-u-3-4">
-                        <div id="small_multiples" style="width: 100%"></div> <!-- Cannot set responsive container width for Vega-Lite repeat elements -->
-                      </div>
                     </div>
             
-                    <br><br>
+                    <br>
 
                     <div class="divider" style="height: 35px"></div>
             
-                    <!-- Stacked chart heading -->
-                    <div id="stacked_heading">
-                      <h3>The distribution and trends of decision success across different quarters</h3>
-                    </div>
-                    <br><br>
-                    <!-- Stacked chart grid -->
-                    <div class="pure-g">
-                      <!-- Chart -->
-                      <div class="pure-u-3-4">
-                        <div id="stacked_chart" style="width: 100%"></div>
+             
+                    <!-- interaction heading -->
+                    <div id="interaction_heading">
+                        <h3>Decision browser</h3>
                       </div>
-                      <!-- Text -->
-                      <div class="pure-u-1-4">
-                        <div id="stacked_chart_text">
-                          <ul class="right_side_text">
-                            <li>1. This graph effectively communicates the distribution and trends of decision success across different quarters.</li>
-                            <li>2. ......</li>
-                            <li>3. ......</li>
-
-                          </ul>
+                      <br><br>
+                      <!-- interaction grid -->
+                      <div class="pure-g">
+                        <!-- Text -->
+                        <div class="pure-u-2-5">
+                          <div id="bump_chart_text">
+                            <ul class="right_side_text">
+                              <p>This interactive tool allows for browsing of each coaching decision made, with the respective margin change. 
+                                  <br><br>The bars are colour coded by positive or negative changes, indicating success or failure. 
+                                  <br><br>There is a dropdown to select the round, and the appropriate decisions will appear in chronological order. 
+                                  <br><br>Hover over a bar to read the outcome sought by the coaching staff.</p>
+  
+                            </ul>
+                          </div>
                         </div>
-                      </div>
-                    </div>
-            
-                    <div class="divider"></div>
-            
-
-                    <br><br>
-
-                    <!-- Timeline heading -->
-                    <div id="timeline_heading">
-                      <h3>The count of good and bad decisions in each round</h3>
-                    </div>
-                    <br><br>
-                    <!-- Timeline grid -->
-                    <div class="pure-g">
-                      <!-- Text -->
-                      <div class="pure-u-1-4">
-                        <div id="bump_chart_text">
-                          <ul class="left_side_text">
-                            <li>1. This graph indicates a clear differentiation between good and bad decisions in each round.</li>
-                            <li>2. ......</li>
-                            <li>3. ......</li>
-
-                          </ul>
-                        </div>
-                      </div>
                       <!-- Chart -->
-                      <div class="pure-u-3-4">
-                        <div id="timeline" style="width: 100%"></div>
+                      <div class="pure-u-3-5">
+                        <div id="interaction" style="width: 100%"></div> <!-- Cannot set responsive container width for Vega-Lite repeat elements -->
                       </div>
+       
                     </div>
-            
-                    <div class="divider"></div>
-                    <p style="margin-left: 50px; font-family: NationalPark-Regular; font-size: 9px; color: var(--npslightbrown)">Sources: National Park Service, Wikipedia</p>
-                    <div class="divider" style="height: 30px"></div>
-                  </div>
-                </div>
-                
+  
+                      <div class="divider" style="height: 35px"></div>
+                     
                 <!-- Right margin -->
                 <div class="pure-u-1-8">
                   <div id="margin"></div>
@@ -312,6 +346,8 @@ The JavaScript code at the end of the file uses the Vega and Vega-Lite libraries
         var spec2 = "https://raw.githubusercontent.com/yyhav1/fit3164-project/main/js/per_pressure_vg.json";
         var spec3 = "https://raw.githubusercontent.com/yyhav1/fit3164-project/main/js/per_quarter_vg.json";
         var spec4 = "https://raw.githubusercontent.com/yyhav1/fit3164-project/main/js/per_round_vg.json";
+        var spec5 = "https://raw.githubusercontent.com/yyhav1/fit3164-project/main/js/decision_browser_vg.json";
+
     
         vegaEmbed('#bump_chart', spec1).then(function(result) {
           // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
@@ -326,6 +362,10 @@ The JavaScript code at the end of the file uses the Vega and Vega-Lite libraries
         }).catch(console.error);
     
         vegaEmbed('#timeline', spec4).then(function(result) {
+          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+
+        vegaEmbed('#interaction', spec5).then(function(result) {
           // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
         }).catch(console.error);
     
